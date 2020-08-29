@@ -1,10 +1,11 @@
 package chass_system;
 
+import boardygame.Bord;
+
 public class Program {
 	public static void main(String args[]) {
 		
-		System.out.println("Hello word!!!");
-		
+		Bord board = new Bord(8, 8);
 	}
 
 }
